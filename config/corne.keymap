@@ -12,9 +12,29 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
-            bindings = <&trans>;
-            key-positions = <>;
+        terminal {
+            bindings = <&kp LG(ENTER)>;
+            key-positions = <19 20>;
+        };
+
+        rofi {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <15 16>;
+        };
+
+        firefox-home {
+            bindings = <&kp LG(LS(H))>;
+            key-positions = <18 16>;
+        };
+
+        firefox-work {
+            bindings = <&kp LG(LS(W))>;
+            key-positions = <2 16>;
+        };
+
+        asterix {
+            bindings = <&kp ASTERISK>;
+            key-positions = <4 5>;
         };
     };
 
