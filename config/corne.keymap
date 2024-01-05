@@ -15,12 +15,12 @@
 
         terminal {
             bindings = <&kp LG(ENTER)>;
-            key-positions = <19 20>;
+            key-positions = <18 19>;
         };
 
         rofi {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
         };
 
         firefox-home {
@@ -36,6 +36,21 @@
         asterix {
             bindings = <&kp ASTERISK>;
             key-positions = <4 5>;
+        };
+
+        num_layer_oneshot {
+            bindings = <&sl 2>;
+            key-positions = <8 9>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
         };
     };
 
